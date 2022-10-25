@@ -65,7 +65,7 @@ int main()
                 x = i;
                 y = j;
                 z = k;
-                cout << x << "\t\t" << y << "\t\t" << z << "\t\t  " << (x && !(y &&(x || !z))) << endl;
+                cout << x << "\t\t" << y << "\t\t" << z << "\t\t  " << (x && !(y && (x || !z))) << endl;
             }
         }
     }
